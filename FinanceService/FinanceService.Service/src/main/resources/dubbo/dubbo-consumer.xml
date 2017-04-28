@@ -21,10 +21,15 @@
         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+    <dubbo:application name="financeService"/>
+    
+    <dubbo:registry address="zookeeper://127.0.0.1:2181" client="zkclient"/>
+
+    <dubbo:protocol name="dubbo" port="20880" />
 
     <!--<dubbo:reference interface="com.fct.interfaces.users.MemberService" timeout="5000" check="false" />-->
     <dubbo:reference interface="com.fct.message.interfaces.MessageService" timeout="5000" check="false" />
 
-    <dubbo:service interface="com.fct.finance.interfaces.FinanceService" ref="FinanceService" timeout="5000"/> <!-- 增加暴露远程服务配置 -->
+    <dubbo:service interface="com.fct.finance.interfaces.FinanceService" ref="financeService" timeout="5000"/> <!-- 增加暴露远程服务配置 -->
 </beans>
 

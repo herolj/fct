@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  */
 public interface PayOrderRepository extends JpaRepository<PayOrder, String>{
 
-    PayOrder findBytradeTypeAndtradeId(String tradeType,String tradeId);
+    PayOrder findBytradeTypeAndTradeId(String tradeType, String tradeId);
 
     Page<PayOrder> findAll(Specification<PayOrder> spec, Pageable pageable);  //分页按条件查询
 }

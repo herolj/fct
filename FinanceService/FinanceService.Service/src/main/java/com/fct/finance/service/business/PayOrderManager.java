@@ -50,7 +50,7 @@ public class PayOrderManager  {
         valid(pay);
 
         //判读同一业务是否重复生成支付记录
-        PayOrder exitOrder =  payOrderRepository.findBytradeTypeAndtradeId(pay.getTradeType(),pay.getTradeId());
+        PayOrder exitOrder =  payOrderRepository.findBytradeTypeAndTradeId(pay.getTradeType(),pay.getTradeId());
 
         if(exitOrder != null)
         {
@@ -172,7 +172,7 @@ public class PayOrderManager  {
 
     public PayOrder findByTrade(String tradeType,String tradeId)
     {
-        return  payOrderRepository.findBytradeTypeAndtradeId(tradeType,tradeId);
+        return  payOrderRepository.findBytradeTypeAndTradeId(tradeType,tradeId);
     }
 
     /// <summary>

@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ImportResource;
  * Created by nick on 2017/4/3.
  * @author nick
  */
-@SpringBootApplication(scanBasePackages = "com.fct")
+@SpringBootApplication(scanBasePackages = "com.fct.finance")
 @ImportResource("classpath:dubbo/dubbo-consumer.xml")
 public class ApplicationStartUp extends SpringBootServletInitializer {
 
