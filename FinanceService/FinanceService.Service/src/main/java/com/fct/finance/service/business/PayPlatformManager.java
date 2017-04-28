@@ -1,7 +1,7 @@
 package com.fct.finance.service.business;
 
-import com.fct.finance.data.Entity.PayPlatform;
-import com.fct.finance.data.Repository.PayPlatformRepository;
+import com.fct.finance.data.entity.PayPlatform;
+import com.fct.finance.data.repository.PayPlatformRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 

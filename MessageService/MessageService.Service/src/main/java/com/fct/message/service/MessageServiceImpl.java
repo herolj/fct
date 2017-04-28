@@ -1,6 +1,6 @@
 package com.fct.message.service;
 
-import com.fct.message.data.Entity.MessageQueue;
+import com.fct.message.data.entity.MessageQueue;
 import com.fct.message.data.repository.MessageQueueRepository;
 import com.fct.message.interfaces.MessageService;
 import org.apache.commons.lang3.StringUtils;

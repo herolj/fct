@@ -1,4 +1,4 @@
 com/fct/message/data/config/JPAConfig.class
 com/fct/message/data/repository/MessageQueueRepository.class
 com/fct/message/data/config/RedisConfig.class
-com/fct/message/data/Entity/MessageQueue.class
+com/fct/message/data/entity/MessageQueue.class

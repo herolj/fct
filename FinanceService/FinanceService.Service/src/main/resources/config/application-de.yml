@@ -1,6 +1,6 @@
 server:
   port: 8080
-  contextPath: /fct
+  contextPath: /fct-finance
   tomcat:
     uri-encoding: UTF-8
 
@@ -27,7 +27,7 @@ mysql:
   connection:
     url: jdbc:mysql://localhost:3306/fct?useUnicode=true&characterEncoding=UTF8&autoReconnect=true&rewriteBatchedStatements=TRUE&zeroDateTimeBehavior=convertToNull
     username: root
-    password: 123456
+    password: 3202547c
 
 
 

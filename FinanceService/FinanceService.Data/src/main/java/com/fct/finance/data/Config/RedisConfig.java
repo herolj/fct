@@ -1,4 +1,4 @@
-package com.fct.finance.data.Config;
+package com.fct.finance.data.config;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;

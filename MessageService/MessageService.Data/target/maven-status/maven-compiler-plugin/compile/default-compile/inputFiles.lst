@@ -1,4 +1,4 @@
-/Users/jon/IdeaProjects/fct/MessageService/MessageService.Data/src/main/java/com/fct/message/data/config/JPAConfig.java
-/Users/jon/IdeaProjects/fct/MessageService/MessageService.Data/src/main/java/com/fct/message/data/repository/MessageQueueRepository.java
-/Users/jon/IdeaProjects/fct/MessageService/MessageService.Data/src/main/java/com/fct/message/data/Entity/MessageQueue.java
-/Users/jon/IdeaProjects/fct/MessageService/MessageService.Data/src/main/java/com/fct/message/data/config/RedisConfig.java
+/Users/nick/project/personal/fct-1/MessageService/MessageService.Data/src/main/java/com/fct/message/data/config/RedisConfig.java
+/Users/nick/project/personal/fct-1/MessageService/MessageService.Data/src/main/java/com/fct/message/data/entity/MessageQueue.java
+/Users/nick/project/personal/fct-1/MessageService/MessageService.Data/src/main/java/com/fct/message/data/config/JPAConfig.java
+/Users/nick/project/personal/fct-1/MessageService/MessageService.Data/src/main/java/com/fct/message/data/repository/MessageQueueRepository.java

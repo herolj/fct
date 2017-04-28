@@ -1,6 +1,6 @@
 package com.fct.finance.interfaces;
 
-import com.fct.finance.data.Entity.*;
+import com.fct.finance.data.entity.*;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

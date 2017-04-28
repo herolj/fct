@@ -1,8 +1,8 @@
 package com.fct.message.data.repository;
 
 
-//import com.fct.finance.data.Entity.MemberAccount;
-import com.fct.message.data.Entity.MessageQueue;
+//import com.fct.finance.data.entity.MemberAccount;
+import com.fct.message.data.entity.MessageQueue;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;

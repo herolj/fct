@@ -1,6 +1,6 @@
 package com.fct.finance.service;
 
-import com.fct.finance.data.Entity.*;
+import com.fct.finance.data.entity.*;
 import com.fct.finance.service.business.*;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

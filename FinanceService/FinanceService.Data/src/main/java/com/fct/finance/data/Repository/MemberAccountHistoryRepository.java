@@ -1,6 +1,6 @@
-package com.fct.finance.data.Repository;
+package com.fct.finance.data.repository;
 
-import com.fct.finance.data.Entity.MemberAccountHistory;
+import com.fct.finance.data.entity.MemberAccountHistory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;

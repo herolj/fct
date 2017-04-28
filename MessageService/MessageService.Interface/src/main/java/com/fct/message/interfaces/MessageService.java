@@ -1,6 +1,6 @@
 package com.fct.message.interfaces;
 
-import com.fct.message.data.Entity.MessageQueue;
+import com.fct.message.data.entity.MessageQueue;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

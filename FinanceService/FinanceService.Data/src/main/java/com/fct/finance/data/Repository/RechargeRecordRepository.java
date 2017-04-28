@@ -1,6 +1,6 @@
-package com.fct.finance.data.Repository;
+package com.fct.finance.data.repository;
 
-import com.fct.finance.data.Entity.RechargeRecord;
+import com.fct.finance.data.entity.RechargeRecord;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;

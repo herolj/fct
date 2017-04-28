@@ -1,4 +1,4 @@
-package com.fct.finance.data.Entity;
+package com.fct.finance.data.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;

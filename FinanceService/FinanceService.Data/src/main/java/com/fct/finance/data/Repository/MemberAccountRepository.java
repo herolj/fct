@@ -1,14 +1,11 @@
-package com.fct.finance.data.Repository;
+package com.fct.finance.data.repository;
 
 
-import com.fct.finance.data.Entity.MemberAccount;
+import com.fct.finance.data.entity.MemberAccount;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-
-import java.util.List;
 
 /**
  * Created by jon on 2017/4/7.

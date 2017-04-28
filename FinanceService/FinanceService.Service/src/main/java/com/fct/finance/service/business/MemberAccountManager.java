@@ -1,7 +1,7 @@
 package com.fct.finance.service.business;
 
-import com.fct.finance.data.Entity.MemberAccount;
-import com.fct.finance.data.Repository.MemberAccountRepository;
+import com.fct.finance.data.entity.MemberAccount;
+import com.fct.finance.data.repository.MemberAccountRepository;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

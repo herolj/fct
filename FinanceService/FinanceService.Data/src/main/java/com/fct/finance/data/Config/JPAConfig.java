@@ -1,4 +1,4 @@
-package com.fct.finance.data.Config;
+package com.fct.finance.data.config;
 
 import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
@@ -25,7 +25,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @author jon
  */
 @Configuration
-@EnableJpaRepositories(basePackages = "com.fct.finance.data.Repository")
+@EnableJpaRepositories(basePackages = "com.fct.finance.data.repository")
 @EnableTransactionManagement
 public class JPAConfig {
 
@@ -36,7 +36,7 @@ public class JPAConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource);
-        em.setPackagesToScan("com.fct.service.Data.Entity");
+        em.setPackagesToScan("com.fct.finance.data.entity");
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);
         em.setJpaProperties(additionalProperties());

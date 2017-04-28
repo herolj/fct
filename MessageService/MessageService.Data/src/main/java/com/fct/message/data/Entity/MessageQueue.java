@@ -1,10 +1,9 @@
-package com.fct.message.data.Entity;
+package com.fct.message.data.entity;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.math.BigDecimal;
 import java.util.Date;
 
 /**
